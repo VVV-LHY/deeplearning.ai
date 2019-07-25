@@ -1,0 +1,9 @@
+项目名称
+deeplearning.ai——《改善深层神经网络》
+第二周：优化算法
+编程作业：比较了普通梯度下降法GradientDescent和动量梯度下降法momentum以及Adam法的区别得出了以下结论：
+对比普通的梯度下降GD、动量梯度下降法momentum、Adam三种方法可知：
+1.GD和momentum的准确率accuracy都为0.797，Adam的准确率为0.94。这说明在相同的迭代次数即时间花费下，Adam的收敛速度最快，对算法的效率有明显提升。
+2.GD和momentum相对于Adam有明显的预热过程，即不会在刚开始突然加快梯度下降速度，而是会慢慢迭代。而Adam在第1000次迭代的时候就已经快要收敛。
+3.通常来说momentum也具备很好的效果，但是本实验的点集很小且迭代次数不够多，所以无法体现momentum对普通梯度下降的优势。
+4.GD和momentnum的迭代震荡幅度要高于Adam，Adam的收敛范围更小更平滑。
