@@ -1,0 +1,4 @@
+项目名称
+deeplearning.ai——《卷积神经网络》
+第一周：CNN
+编程作业：Andrew Ng的作业启用了tensorflow对手势表达的数字进行识别，但是本代码使用了pytorch框架
